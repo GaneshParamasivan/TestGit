@@ -15,7 +15,7 @@ public class TestClass {
 public static void main(String[] args) throws Exception
 {
 	
-	
+	String S = "hello";
 	WebDriver driver = new ChromeDriver();
 	System.setProperty("webdriver.chrome.driver","C:\\Users\\Ganesh\\Downloads\\chromedriver_win32\\chromedriver.exe");
 	driver.get("https://planinternationalcanada--uat.sandbox.my.salesforce.com");
